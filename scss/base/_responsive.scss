@@ -1,0 +1,44 @@
+@media (min-width: 481px) and (max-width: 1023px) {
+    .menuFlex {
+        flex-flow: column wrap;
+    }
+    nav {
+        text-align: center;
+    }
+    img {
+        width: 250px;
+        height: 250px;
+    }
+    .cafeteriasFlex {
+        flex-flow: row wrap;
+    }
+    
+    .cafeFlex {
+        flex-flow: row wrap;
+    }
+    .tutorialesFlex {
+        flex-flow: row wrap;
+    }
+}
+
+@media (max-width: 480px) {
+.tutorialesFlex {
+    flex-flow: column nowrap;
+}
+.cafeteriasFlex {
+    flex-flow: column nowrap;
+}
+.menuFlex {
+    flex-flow: column nowrap;
+}
+nav {
+    text-align: center;
+}
+img {
+    width: 300px;
+    height: 300px;
+}
+#galeria {
+    text-align: center;
+}
+}

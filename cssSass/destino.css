@@ -1,0 +1,199 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+/*Imports*/
+@media (min-width: 481px) and (max-width: 1023px) {
+  .menuFlex {
+    flex-flow: column wrap;
+  }
+  nav {
+    text-align: center;
+  }
+  img {
+    width: 250px;
+    height: 250px;
+  }
+  .cafeteriasFlex {
+    flex-flow: row wrap;
+  }
+  .cafeFlex {
+    flex-flow: row wrap;
+  }
+  .tutorialesFlex {
+    flex-flow: row wrap;
+  }
+}
+@media (max-width: 480px) {
+  .tutorialesFlex {
+    flex-flow: column nowrap;
+  }
+  .cafeteriasFlex {
+    flex-flow: column nowrap;
+  }
+  .menuFlex {
+    flex-flow: column nowrap;
+  }
+  nav {
+    text-align: center;
+  }
+  img {
+    width: 300px;
+    height: 300px;
+  }
+  #galeria {
+    text-align: center;
+  }
+}
+#grillaAreas {
+  display: grid;
+  grid-template-areas: "cabeza cabeza cabeza" "menu cuerpo cuerpo" "menu productos productos" "pie pie pie";
+  grid-template-columns: 15% auto 20%;
+  grid-template-rows: 1fr 2fr 2fr 1fr 1fr;
+}
+
+header {
+  grid-area: cabeza;
+}
+
+#productos {
+  grid-area: productos;
+}
+
+#galeria {
+  grid-area: cuerpo;
+}
+
+nav {
+  grid-area: menu;
+}
+
+footer {
+  grid-area: pie;
+}
+
+h1 {
+  text-align: right;
+  font-size: 85px;
+  padding-right: 10%;
+}
+h1 section {
+  text-align: left;
+  font-size: 30px;
+  padding-left: 10%;
+}
+
+.transicion {
+  transition: width 2s;
+}
+.transicion:hover {
+  width: 50vh;
+}
+
+.textoAnimado {
+  animation-name: texto;
+  animation-duration: 1s;
+  animation-iteration-count: 1;
+}
+@keyframes texto {
+  from {
+    transform: translateX(1300px);
+  }
+  to {
+    transform: translate(0);
+  }
+}
+
+h2 {
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-style: oblique;
+  text-align: center;
+}
+h2 #h2Registro {
+  text-align: right;
+  padding-right: 10%;
+}
+h2 .saintfrank, h2 .elsquatregats, h2 .stories, h2 .grumpydonuts {
+  background-color: antiquewhite;
+  border-radius: 20px;
+  border: 1px solid black;
+}
+h2 .grumpydonuts {
+  background-color: bisque;
+}
+h2 .stories {
+  background-color: burlywood;
+}
+h2 .elsquatregats {
+  background-color: cornsilk;
+}
+
+h3 {
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande", "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+}
+
+h4 {
+  color: burlywood;
+}
+
+p {
+  font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
+}
+
+.menuFlex {
+  display: flex;
+  flex-flow: column nowrap;
+}
+
+.tutorialesFlex {
+  display: flex;
+  flex-flow: row nowrap;
+}
+
+.formFlex {
+  display: flex;
+  flex-flow: column nowrap;
+}
+
+.cafeteriasFlex {
+  display: flex;
+  flex-flow: row nowrap;
+}
+
+.cafeFlex {
+  display: flex;
+  flex-flow: row wrap;
+}
+
+/*Variables*/
+/*MIXINS*/
+img {
+  height: 500px;
+  width: 500px;
+}
+
+/*General*/
+body {
+  width: 100%;
+  height: 100vh;
+  background-color: beige;
+}
+
+header {
+  background-image: url("https://i.pinimg.com/originals/98/33/e2/9833e22c4361d1185913336f82046a43.jpg");
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: cover;
+}
+
+footer {
+  background-image: url("https://static.vecteezy.com/system/resources/previews/004/222/199/non_2x/coffee-background-with-realistic-cup-of-coffee-vector.jpg");
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  text-align: right;
+  padding-right: 20%;
+}
+
+/*# sourceMappingURL=destino.css.map */

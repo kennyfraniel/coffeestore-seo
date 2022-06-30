@@ -1,0 +1,28 @@
+#grillaAreas {
+    display: grid;
+    grid-template-areas:
+    "cabeza cabeza cabeza"
+    "menu cuerpo cuerpo"
+    "menu productos productos"
+    "pie pie pie"
+    ;
+    grid-template-columns: 15% auto 20%;
+    grid-template-rows: 1fr 2fr 2fr 1fr 1fr;
+}   
+header {
+    grid-area: cabeza;
+}
+
+#productos {
+    grid-area: productos;
+}
+
+#galeria {
+    grid-area: cuerpo;
+}
+nav {
+    grid-area: menu;
+}
+footer {
+    grid-area: pie;
+}
