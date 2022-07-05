@@ -2,15 +2,15 @@ h1 {
     text-align: right;
     font-size: 85px;
     padding-right: 10%;
+}
 
-    section {
+section {
+    h1 {
         text-align: left;
         font-size: 30px;
         padding-left: 10%;
-        }
-
+    }
 }
-
 .transicion {
     transition: width 2s;
 
@@ -39,11 +39,36 @@ h2 {
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     font-style: oblique;
     text-align: center;
-        
-    #h2Registro {
+}
+
+#h2Registro {
      text-align: right;
      padding-right: 10%;
-    }
+}
+
+    
+div {
+        .saintfrank {
+                background-color: antiquewhite;
+                border-radius: 20px;
+                border: 1px solid black;
+        }
+            
+         .grumpydonuts {
+                @extend .saintfrank;
+                background-color: bisque;
+             }
+            
+        .stories {
+               @extend .saintfrank;
+               background-color: burlywood;
+             }
+        .elsquatregats {
+               @extend .saintfrank;
+               background-color: cornsilk;
+            }
+        }
+article {
     .saintfrank {
         background-color: antiquewhite;
         border-radius: 20px;
@@ -63,8 +88,9 @@ h2 {
        @extend .saintfrank;
        background-color: cornsilk;
     }
-    
 }
+
+
 h3 {
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
     }
@@ -77,3 +103,12 @@ p {
     font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
 }
 
+.imagenHeader {
+    width: 150px;
+    height: 150px;
+    border-radius: 100px;
+}
+
+.imagenLatte {
+    border-radius: 60px;
+}

@@ -1,0 +1,12 @@
+/*Variables*/
+$beige: beige;
+
+/*MIXINS*/
+
+@mixin tamañoMediaQ ($ancho, $alto) {
+    height: $alto;
+    width: $ancho;
+}
+img {
+    @include tamañoMediaQ(500px,500px)
+}

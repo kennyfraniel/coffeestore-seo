@@ -1,13 +1,14 @@
 #grillaAreas {
     display: grid;
     grid-template-areas:
+    "menu menu menu"
     "cabeza cabeza cabeza"
-    "menu cuerpo cuerpo"
-    "menu productos productos"
+    "cuerpo cuerpo cuerpo"
+    "productos productos productos"
     "pie pie pie"
     ;
     grid-template-columns: 15% auto 20%;
-    grid-template-rows: 1fr 2fr 2fr 1fr 1fr;
+    grid-template-rows: 4fr 3fr 2fr 1fr 1fr;
 }   
 header {
     grid-area: cabeza;

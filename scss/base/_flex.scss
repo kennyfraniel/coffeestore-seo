@@ -1,11 +1,13 @@
 .menuFlex {
     display: flex;
-    flex-flow: column nowrap;
+    flex-flow: row nowrap;
+
 }
 
 .tutorialesFlex {
     display: flex;
     flex-flow: row nowrap;
+    
 }
 
 .formFlex {
@@ -21,4 +23,6 @@
 .cafeFlex {
     display: flex;
     flex-flow: row wrap;
+    align-items: center;
+    padding-left: 100px;
 }
