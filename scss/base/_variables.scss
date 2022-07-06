@@ -10,3 +10,13 @@ $beige: beige;
 img {
     @include tamañoMediaQ(500px,500px)
 }
+
+/*MAP*/
+
+$colores: (
+  beige: #f5f5dc,
+  crema: #faebd7,
+  beige-oscuro: #ffe4c4,
+  marron: #deb887,
+  blanco: #fff8dc,
+)

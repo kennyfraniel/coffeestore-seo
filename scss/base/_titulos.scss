@@ -48,33 +48,31 @@ h2 {
 
     
 .saintfrank {
-    background-color: antiquewhite;
+    background-color: map-get($map: $colores, $key:crema);
     border-radius: 20px;
     border: 1px solid black;
      }
             
 .grumpydonuts {
     @extend .saintfrank;
-    background-color: bisque;
+    background-color: map-get($map: $colores, $key:beige-oscuro);
     }
             
 .stories {
     @extend .saintfrank;
-    background-color: burlywood;
+    background-color: map-get($map: $colores, $key:marron);
 }
 .elsquatregats {
     @extend .saintfrank;
-    background-color: cornsilk;
+    background-color: map-get($map:$colores, $key:blanco);
     }
 
 
 h3 {
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    color: burlywood;
     }
 
-h4 {
-     color: burlywood;
-}   
 
 p {
     font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
