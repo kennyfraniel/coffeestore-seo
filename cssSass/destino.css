@@ -110,33 +110,21 @@ h2 {
   padding-right: 10%;
 }
 
-div .saintfrank, div .elsquatregats, div .stories, div .grumpydonuts {
+.saintfrank, .elsquatregats, .stories, .grumpydonuts {
   background-color: antiquewhite;
   border-radius: 20px;
   border: 1px solid black;
-}
-div .grumpydonuts {
-  background-color: bisque;
-}
-div .stories {
-  background-color: burlywood;
-}
-div .elsquatregats {
-  background-color: cornsilk;
 }
 
-article .saintfrank, article .elsquatregats, article .stories, article .grumpydonuts {
-  background-color: antiquewhite;
-  border-radius: 20px;
-  border: 1px solid black;
-}
-article .grumpydonuts {
+.grumpydonuts {
   background-color: bisque;
 }
-article .stories {
+
+.stories {
   background-color: burlywood;
 }
-article .elsquatregats {
+
+.elsquatregats {
   background-color: cornsilk;
 }
 

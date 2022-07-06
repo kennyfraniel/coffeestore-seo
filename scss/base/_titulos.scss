@@ -47,48 +47,25 @@ h2 {
 }
 
     
-div {
-        .saintfrank {
-                background-color: antiquewhite;
-                border-radius: 20px;
-                border: 1px solid black;
-        }
+.saintfrank {
+    background-color: antiquewhite;
+    border-radius: 20px;
+    border: 1px solid black;
+     }
             
-         .grumpydonuts {
-                @extend .saintfrank;
-                background-color: bisque;
-             }
-            
-        .stories {
-               @extend .saintfrank;
-               background-color: burlywood;
-             }
-        .elsquatregats {
-               @extend .saintfrank;
-               background-color: cornsilk;
-            }
-        }
-article {
-    .saintfrank {
-        background-color: antiquewhite;
-        border-radius: 20px;
-        border: 1px solid black;
-     }
-    
-     .grumpydonuts {
-        @extend .saintfrank;
-        background-color: bisque;
-     }
-    
-     .stories {
-       @extend .saintfrank;
-       background-color: burlywood;
-     }
-    .elsquatregats {
-       @extend .saintfrank;
-       background-color: cornsilk;
+.grumpydonuts {
+    @extend .saintfrank;
+    background-color: bisque;
     }
+            
+.stories {
+    @extend .saintfrank;
+    background-color: burlywood;
 }
+.elsquatregats {
+    @extend .saintfrank;
+    background-color: cornsilk;
+    }
 
 
 h3 {
