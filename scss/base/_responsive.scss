@@ -19,6 +19,14 @@
     .tutorialesFlex {
         flex-flow: row wrap;
     }
+    h1 {
+        font-size: 65px;
+    }
+    .imagenHeader {
+        height: 120px;
+        width: 120px;
+    
+    }
 }
 
 @media (max-width: 480px) {
@@ -40,5 +48,14 @@ img {
 }
 #galeria {
     text-align: center;
+}
+
+h1 {
+    font-size: 45px;
+}
+.imagenHeader {
+    height: 100px;
+    width: 100px;
+
 }
 }

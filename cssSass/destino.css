@@ -80,11 +80,8 @@ section h1 {
   padding-left: 10%;
 }
 
-.transicion {
-  transition: width 2s;
-}
 .transicion:hover {
-  width: 50vh;
+  filter: saturate(180%);
 }
 
 .textoAnimado {
@@ -139,6 +136,10 @@ p {
   font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
 }
 
+article p {
+  padding: 10px;
+}
+
 .imagenHeader {
   width: 150px;
   height: 150px;
@@ -147,6 +148,23 @@ p {
 
 .imagenLatte {
   border-radius: 60px;
+}
+
+.logos {
+  width: 50px;
+  height: 50px;
+}
+
+#galeria {
+  padding: 1rem;
+}
+
+#productos {
+  padding: 2rem;
+}
+
+article {
+  padding: 2rem;
 }
 
 .menuFlex {
@@ -173,7 +191,6 @@ p {
   display: flex;
   flex-flow: row wrap;
   align-items: center;
-  padding-left: 100px;
 }
 
 @media (min-width: 481px) and (max-width: 1023px) {
@@ -196,6 +213,13 @@ p {
   .tutorialesFlex {
     flex-flow: row wrap;
   }
+  h1 {
+    font-size: 65px;
+  }
+  .imagenHeader {
+    height: 120px;
+    width: 120px;
+  }
 }
 @media (max-width: 480px) {
   .tutorialesFlex {
@@ -216,6 +240,13 @@ p {
   }
   #galeria {
     text-align: center;
+  }
+  h1 {
+    font-size: 45px;
+  }
+  .imagenHeader {
+    height: 100px;
+    width: 100px;
   }
 }
 
