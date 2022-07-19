@@ -13,7 +13,7 @@ section {
 }
 .transicion {
         &:hover {
-            filter: saturate(180%);
+            filter: saturate(300%);
         }
 }
 
@@ -109,6 +109,6 @@ article {
 }
 
 img {
-    width: 250px;
-    height: 250px;
+    width: 270px;
+    height: 270px;
 }

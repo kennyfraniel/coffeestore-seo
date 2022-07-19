@@ -81,7 +81,7 @@ section h1 {
 }
 
 .transicion:hover {
-  filter: saturate(180%);
+  filter: saturate(300%);
 }
 
 .textoAnimado {
@@ -167,6 +167,11 @@ article {
   padding: 2rem;
 }
 
+img {
+  width: 270px;
+  height: 270px;
+}
+
 .menuFlex {
   display: flex;
   flex-flow: row nowrap;
@@ -190,7 +195,15 @@ article {
 .cafeFlex {
   display: flex;
   flex-flow: row wrap;
+}
+
+.container {
   align-items: center;
+}
+
+.imagenCafeteria {
+  width: 300px;
+  height: 300px;
 }
 
 @media (min-width: 481px) and (max-width: 1023px) {
@@ -201,8 +214,8 @@ article {
     text-align: center;
   }
   img {
-    width: 250px;
-    height: 250px;
+    width: 200px;
+    height: 200px;
   }
   .cafeteriasFlex {
     flex-flow: row wrap;
@@ -235,8 +248,8 @@ article {
     text-align: center;
   }
   img {
-    width: 300px;
-    height: 300px;
+    width: 175px;
+    height: 175px;
   }
   #galeria {
     text-align: center;
