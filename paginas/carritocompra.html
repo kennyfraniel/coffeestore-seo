@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>COFFEE STORE - COMPRAS</title>
+    <link rel="stylesheet" href="../css/bootstrap.css">
+    <link rel="stylesheet" href="../cssSass/destino.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.9.1/font/bootstrap-icons.css">
+    <script defer src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-A3rJD856KowSb7dwlZdYEkO39Gagi7vIsF0jrRAoQmDKKtQBHUuLZ9AsSv4jD4Xa" crossorigin="anonymous"></script>
+    <script defer src="../index.js"></script>
+</head>
+<body id="grillaAreas">
+    <header class="border1">
+        <h1 class="textoAnimado container">COFFEE STORE</h1>
+        <nav>
+          <a class="navbar-brand" href="../index.html">
+              <img class="imagenHeader transicion" src="../imagenes/inicio.png"
+                  alt="logotipo Inicio">
+          </a>
+          <a class="navbar-brand" href="artelatte.html">
+              <img class="imagenHeader transicion" src="../imagenes/artelatte.png"
+                  alt="logo Arte latte">
+          </a>
+          <a class="navbar-brand" href="cafeterias.html">
+              <img class="imagenHeader transicion" src="../imagenes/cafeterias.png"
+                  alt="logo Cafeterias">
+
+          </a>
+          <a class="navbar-brand" href="faq.html">
+              <img class="imagenHeader transicion" src="../imagenes/faq.png"
+                  alt="logo Faq">
+
+          </a>
+          <a class="navbar-brand" href="glosario.html">
+              <img class="imagenHeader transicion" src="../imagenes/glosario.png"
+                  alt="logo Glosario">
+
+          </a>
+          <a class="navbar-brand" href="carritocompra.html">
+            <img class="imagenHeader transicion" src="../imagenes/compra.png" alt="logo Compra">
+          </a>
+      </nav>
+    </header>
+    <section id="galeria" class="border1">
+        <h2>¡AQUÍ PUEDES ENCONTRAR Y DISFRUTAR DE LAS MEJORES OFERTAS EN EL MERCADO!</h2>
+    </section>
+    
+    <section id="productos" class="border1" >
+        <nav class="navbar navbar-expand-lg bg-light">
+            <div class="container-fluid">
+                <a class="navbar-brand" href="#"> Mi tienda de Coffee</a>
+                <!-- Button trigger modal -->
+                <button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#exampleModal" >
+                    Ver carrito de compras <i class="bi bi-bag-check-fill"></i>
+                </button>
+                </div>
+            </div>
+        </nav>
+        
+        <!-- Modal -->
+        <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+            <div class="modal-dialog">
+                <div class="modal-content">
+                    <div class="modal-header">
+                    <h5 class="modal-title" id="exampleModalLabel">Carrito</h5>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                    </div>
+                    <div class="modal-body">
+                        <div class="container">
+                            <table class="table">
+                                <thead>
+                                    <tr>
+                                    <th scope="col">ID</th>
+                                    <th scope="col">Nombre</th>
+                                    <th scope="col">Cantidad</th>
+                                    <th scope="col">Precio</th>
+                                    <th scope="col">Total</th>
+                                    <th scope="col"></th>
+                                    </tr>
+                                </thead>
+                                <tbody id="items"></tbody>
+                                <tfoot>
+                                    <tr id="footer">
+                                    <th scope="row" colspan="5">Carrito vacío - comience a comprar!</th>
+                                    </tr>
+                                </tfoot>
+                                </table>
+                            <div class="row" id="cards"></div>
+                        </div>
+                    
+                    </div>
+                    <div class="modal-footer">
+                    <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Cerrar</button>
+                    <button type="button" class="btn btn-primary">Terminar compra</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    
+        <br />
+    
+    
+        <div id="contenedor-productos" class="container-fluid">
+            <div class="row">
+                <div class="col-xs-6 col-sm-3 col-md-2">
+                    <div class="card">
+                        <img src="../imgjs/cafiza.jpg" class="card-img-top" alt="cafiza">
+                        <div class="card-body">
+                            <h5>Cafiza</h5>
+                            <p>$10 USD</p>
+                            <button class="btn btn-success">Comprar</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+    </section>
+    <footer class="border1">
+        <h3>CONTACTANOS A ESTE NUMERO: 1121608216</h3>
+        <h3>Instagram</h3><a href="https://www.instagram.com/frangrimoldi/?hl=es-la"><img class="logos" src="../imagenes/logo-ig.png" alt="logo instagram"></a>
+        <h3>Facebook </h3><a href="https://www.facebook.com/franco.grimoldi.delgado/"><img class="logos" src="../imagenes/logo-fb.png" alt="logo facebook"></a>
+        <h3>Github </h3><a href="https://github.com/kennyfraniel/coffestore-sass-"> <img class="logos" src="../imagenes/logo-git.png" alt="logo github"></a>
+    </footer>
+</body>
+</html>
