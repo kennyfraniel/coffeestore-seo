@@ -1,0 +1,44 @@
+[
+    {
+      "precio": 10,
+      "id": 1,
+      "title": "Cafiza",
+      "thumbnailUrl": "https://hondushoping.com/341-large_default/limpiador-en-polvo-cafiza.jpg"
+    },
+    {
+      "precio": 5,
+      "id": 2,
+      "title": "Café Cabrales",
+      "thumbnailUrl": "https://www.cabrales.com/wp-content/uploads/2016/05/prestige_molido_500g.jpg"
+    },
+    {
+      "precio": 30,
+      "id": 3,
+      "title": "Filtros Cafetera",
+      "thumbnailUrl": "https://www.comprarmicafetera.com/wp-content/uploads/2014/10/delonghi_ec860_filtros-e1413036123982.jpg"
+    },
+    {
+      "precio": 80,
+      "id": 4,
+      "title": "Cafetera Moka Italiana",
+      "thumbnailUrl": "https://d3ugyf2ht6aenh.cloudfront.net/stores/102/583/products/bialetti-cafetera-moka-express-6-italiana-tienda-pepino-11-96d010c5d3126929f215795545091213-1024-1024.jpg"
+    },
+    {
+      "precio": 50,
+      "id": 5,
+      "title": "Molinillo Café",
+      "thumbnailUrl": "https://www.peabody.com.ar/images/molinillo-de-cafe-pe-mc9400_3_700x500.jpg"
+    },
+    {
+      "precio": 4,
+      "id": 6,
+      "title": "Brocha Café",
+      "thumbnailUrl": "https://www.spraymovil.com/sites/default/files/Brocha-Cafe-Regular-%C2%BD-Atlas.jpg"
+    },
+    {
+      "precio": 12,
+      "id": 7,
+      "title": "Tamper",
+      "thumbnailUrl": "https://cdn.myshoptet.com/usr/www.heavytamper.com/user/shop/big/960-3_heavy-t--wenge-standart-web.jpg?60c83184"
+    }
+  ]
