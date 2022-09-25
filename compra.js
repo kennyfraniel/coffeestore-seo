@@ -122,6 +122,7 @@ const pintarFooter = () => {
             text: '¡Vuelve a agregar productos al carro!',
           })
     })
+   
 }
 
 const btnAccion = e => {
@@ -142,19 +143,13 @@ const btnAccion = e => {
     e.stopPropagation()
     
 }
-//boton de finalizar
-let finalizar = document.querySelector('finalizar')
-finalizar.addEventListener('click', () => {
-    Swal.fire({
-        title: 'Sweet!',
-        text: 'Modal with a custom image.',
-        imageUrl: 'https://unsplash.it/400/200',
-        imageWidth: 300,
-        imageHeight: 200,
-        imageAlt: 'Custom image',
-      });
+
+const boton1 = getElementById("finalizar");
+boton1.addEventListener ('click', () => {
+    console.log("btn");
 })
-   
+
+
 
 
 
